@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="211227\Change_1.aspx" />
     <Content Include="211227\Change_2.aspx" />
+    <Content Include="211227\Class.aspx" />
     <Content Include="211227\Exception_Try_catch_finally.aspx" />
     <Content Include="211227\Iteration_Foreach.aspx" />
     <Content Include="211227\Jump_Goto.aspx" />
@@ -91,6 +92,13 @@
     </Compile>
     <Compile Include="211227\Change_2.aspx.designer.cs">
       <DependentUpon>Change_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Class.aspx.cs">
+      <DependentUpon>Class.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Class.aspx.designer.cs">
+      <DependentUpon>Class.aspx</DependentUpon>
     </Compile>
     <Compile Include="211227\Exception_Try_catch_finally.aspx.cs">
       <DependentUpon>Exception_Try_catch_finally.aspx</DependentUpon>
