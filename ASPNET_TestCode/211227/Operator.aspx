@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="211227_Operator.aspx.cs" Inherits="ASPNET_TestCode._211227_Operator" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Operator.aspx.cs" Inherits="ASPNET_TestCode._211227_Operator" %>
 
 <!DOCTYPE html>
 

@@ -67,32 +67,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="211227_Change_1.aspx" />
-    <Content Include="211227_Change_2.aspx" />
-    <Content Include="211227_Operator.aspx" />
+    <Content Include="211227\Change_1.aspx" />
+    <Content Include="211227\Change_2.aspx" />
+    <Content Include="211227\Operator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="211227_Change_1.aspx.cs">
-      <DependentUpon>211227_Change_1.aspx</DependentUpon>
+    <Compile Include="211227\Change_1.aspx.cs">
+      <DependentUpon>Change_1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211227_Change_1.aspx.designer.cs">
-      <DependentUpon>211227_Change_1.aspx</DependentUpon>
+    <Compile Include="211227\Change_1.aspx.designer.cs">
+      <DependentUpon>Change_1.aspx</DependentUpon>
     </Compile>
-    <Compile Include="211227_Change_2.aspx.cs">
-      <DependentUpon>211227_Change_2.aspx</DependentUpon>
+    <Compile Include="211227\Change_2.aspx.cs">
+      <DependentUpon>Change_2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211227_Change_2.aspx.designer.cs">
-      <DependentUpon>211227_Change_2.aspx</DependentUpon>
+    <Compile Include="211227\Change_2.aspx.designer.cs">
+      <DependentUpon>Change_2.aspx</DependentUpon>
     </Compile>
-    <Compile Include="211227_Operator.aspx.cs">
-      <DependentUpon>211227_Operator.aspx</DependentUpon>
+    <Compile Include="211227\Operator.aspx.cs">
+      <DependentUpon>Operator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211227_Operator.aspx.designer.cs">
-      <DependentUpon>211227_Operator.aspx</DependentUpon>
+    <Compile Include="211227\Operator.aspx.designer.cs">
+      <DependentUpon>Operator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

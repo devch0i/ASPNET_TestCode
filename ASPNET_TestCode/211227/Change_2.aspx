@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="211227_Change_1.aspx.cs" Inherits="ASPNET_TestCode._211227_Change_1" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Change_2.aspx.cs" Inherits="ASPNET_TestCode._211227_Change_2" %>
 
 <!DOCTYPE html>
 
@@ -11,12 +11,16 @@
     // A 부분
     protected void Page_Load(object sender, EventArgs e) {
         // B 부분
-        bool myBool = true;
-        int myInt = 45;
-        float myFloat = 7.8F;
+        int dividend = 7;
+        int divisor = 5;
 
-        myFloat = myInt + myFloat;
-        ShowResult("합은 " + myFloat + "입니다. (" + myBool + ")");
+        // 몫 1을 원한다면
+        int quotient = dividend / divisor;
+
+        // 목 1.4를 원한다면
+        float quotientFloat = (float)dividend / (float)divisor;
+
+        ShowResult(quotient + " vs " + quotientFloat);
     }
     void ShowResult(string result) {
         Label lblResult = new Label();
