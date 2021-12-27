@@ -74,6 +74,9 @@
     <Content Include="211227\Iteration_Foreach.aspx" />
     <Content Include="211227\Jump_Goto.aspx" />
     <Content Include="211227\Operator.aspx" />
+    <Content Include="211227\Properties_1.aspx" />
+    <Content Include="211227\Properties_2.aspx" />
+    <Content Include="211227\Properties_3.aspx" />
     <Content Include="211227\Selection_If.aspx" />
     <Content Include="211227\Jump_Break_Continue.aspx" />
     <Content Include="Web.config" />
@@ -127,6 +130,27 @@
     </Compile>
     <Compile Include="211227\Operator.aspx.designer.cs">
       <DependentUpon>Operator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Properties_1.aspx.cs">
+      <DependentUpon>Properties_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Properties_1.aspx.designer.cs">
+      <DependentUpon>Properties_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Properties_2.aspx.cs">
+      <DependentUpon>Properties_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Properties_2.aspx.designer.cs">
+      <DependentUpon>Properties_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Properties_3.aspx.cs">
+      <DependentUpon>Properties_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Properties_3.aspx.designer.cs">
+      <DependentUpon>Properties_3.aspx</DependentUpon>
     </Compile>
     <Compile Include="211227\Selection_If.aspx.cs">
       <DependentUpon>Selection_If.aspx</DependentUpon>
