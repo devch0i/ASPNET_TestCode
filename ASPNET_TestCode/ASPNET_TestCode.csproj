@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="211227_Change_1.aspx" />
+    <Content Include="211227_Change_2.aspx" />
+    <Content Include="211227_Operator.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +79,20 @@
     </Compile>
     <Compile Include="211227_Change_1.aspx.designer.cs">
       <DependentUpon>211227_Change_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227_Change_2.aspx.cs">
+      <DependentUpon>211227_Change_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227_Change_2.aspx.designer.cs">
+      <DependentUpon>211227_Change_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227_Operator.aspx.cs">
+      <DependentUpon>211227_Operator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227_Operator.aspx.designer.cs">
+      <DependentUpon>211227_Operator.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
