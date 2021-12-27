@@ -69,7 +69,12 @@
   <ItemGroup>
     <Content Include="211227\Change_1.aspx" />
     <Content Include="211227\Change_2.aspx" />
+    <Content Include="211227\Exception_Try_catch_finally.aspx" />
+    <Content Include="211227\Iteration_Foreach.aspx" />
+    <Content Include="211227\Jump_Goto.aspx" />
     <Content Include="211227\Operator.aspx" />
+    <Content Include="211227\Selection_If.aspx" />
+    <Content Include="211227\Jump_Break_Continue.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -87,12 +92,47 @@
     <Compile Include="211227\Change_2.aspx.designer.cs">
       <DependentUpon>Change_2.aspx</DependentUpon>
     </Compile>
+    <Compile Include="211227\Exception_Try_catch_finally.aspx.cs">
+      <DependentUpon>Exception_Try_catch_finally.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Exception_Try_catch_finally.aspx.designer.cs">
+      <DependentUpon>Exception_Try_catch_finally.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Iteration_Foreach.aspx.cs">
+      <DependentUpon>Iteration_Foreach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Iteration_Foreach.aspx.designer.cs">
+      <DependentUpon>Iteration_Foreach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Jump_Goto.aspx.cs">
+      <DependentUpon>Jump_Goto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Jump_Goto.aspx.designer.cs">
+      <DependentUpon>Jump_Goto.aspx</DependentUpon>
+    </Compile>
     <Compile Include="211227\Operator.aspx.cs">
       <DependentUpon>Operator.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="211227\Operator.aspx.designer.cs">
       <DependentUpon>Operator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Selection_If.aspx.cs">
+      <DependentUpon>Selection_If.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Selection_If.aspx.designer.cs">
+      <DependentUpon>Selection_If.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211227\Jump_Break_Continue.aspx.cs">
+      <DependentUpon>Jump_Break_Continue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211227\Jump_Break_Continue.aspx.designer.cs">
+      <DependentUpon>Jump_Break_Continue.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
