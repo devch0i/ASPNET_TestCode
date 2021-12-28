@@ -9,7 +9,7 @@
         <div align="center">
             신장 : &nbsp;
             <input id="Height" type="text" runat="server"/>
-            &nbsp;cm&nbsp;&nbsp;&nbsp;몸무게 :&nbsp;
+            &nbsp;<select id="Measure" runat="server" />&nbsp;&nbsp;&nbsp;몸무게 :&nbsp;
             <input id="Weight" type="text" runat="server"/>
             &nbsp;kg
             <br /><br />

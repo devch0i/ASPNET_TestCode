@@ -11,12 +11,17 @@ namespace ASPNET_TestCode._211228
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack) {      // not IsPostBack == true일 경우 실행
+                Measure.Items.Add(new ListItem("센티미터(cm)", "0.01"));
+                Measure.Items.Add(new ListItem("피트(feet)", "0.3048"));
+                Measure.Items.Add(new ListItem("미터(m)", "1"));
+            }
         }
 
         protected void Calc_ServerClick(object sender, EventArgs e)
         {
-            decimal height = Decimal.Parse(Height.Value) / 100;
+            ListItem item = Measure.Items[Measure.SelectedIndex];
+            decimal height = Decimal.Parse(Height.Value) * Decimal.Parse(item.Value);
             // cm 단위를 m 단위로 환산
             decimal weight = Decimal.Parse(Weight.Value);
             decimal BMI = weight / (height * height);
