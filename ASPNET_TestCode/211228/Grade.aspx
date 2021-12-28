@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Chapter3_Grade.aspx.cs" Inherits="ASPNET_TestCode._211228.Chapter3_Grade" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Grade.aspx.cs" Inherits="ASPNET_TestCode._211228.Chapter3_Grade" %>
 
 <!DOCTYPE html>
 

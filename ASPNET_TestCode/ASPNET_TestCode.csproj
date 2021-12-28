@@ -79,7 +79,8 @@
     <Content Include="211227\Properties_3.aspx" />
     <Content Include="211227\Selection_If.aspx" />
     <Content Include="211227\Jump_Break_Continue.aspx" />
-    <Content Include="211228\Chapter3_Grade.aspx" />
+    <Content Include="211228\BMI.aspx" />
+    <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -168,12 +169,19 @@
     <Compile Include="211227\Jump_Break_Continue.aspx.designer.cs">
       <DependentUpon>Jump_Break_Continue.aspx</DependentUpon>
     </Compile>
-    <Compile Include="211228\Chapter3_Grade.aspx.cs">
-      <DependentUpon>Chapter3_Grade.aspx</DependentUpon>
+    <Compile Include="211228\BMI.aspx.cs">
+      <DependentUpon>BMI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211228\Chapter3_Grade.aspx.designer.cs">
-      <DependentUpon>Chapter3_Grade.aspx</DependentUpon>
+    <Compile Include="211228\BMI.aspx.designer.cs">
+      <DependentUpon>BMI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211228\Grade.aspx.cs">
+      <DependentUpon>Grade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211228\Grade.aspx.designer.cs">
+      <DependentUpon>Grade.aspx</DependentUpon>
     </Compile>
     <Compile Include="211228\Chapter3_TestCode.aspx.cs">
       <DependentUpon>Chapter3_TestCode.aspx</DependentUpon>
