@@ -80,8 +80,13 @@
     <Content Include="211227\Selection_If.aspx" />
     <Content Include="211227\Jump_Break_Continue.aspx" />
     <Content Include="211228\BMI.aspx" />
+    <Content Include="211228\CoffeeRecipe.aspx" />
     <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
+    <Content Include="App_Data\0.txt" />
+    <Content Include="App_Data\1.txt" />
+    <Content Include="App_Data\2.txt" />
+    <Content Include="App_Data\3.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -175,6 +180,13 @@
     </Compile>
     <Compile Include="211228\BMI.aspx.designer.cs">
       <DependentUpon>BMI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211228\CoffeeRecipe.aspx.cs">
+      <DependentUpon>CoffeeRecipe.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211228\CoffeeRecipe.aspx.designer.cs">
+      <DependentUpon>CoffeeRecipe.aspx</DependentUpon>
     </Compile>
     <Compile Include="211228\Grade.aspx.cs">
       <DependentUpon>Grade.aspx</DependentUpon>
