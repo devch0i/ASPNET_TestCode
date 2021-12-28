@@ -79,6 +79,8 @@
     <Content Include="211227\Properties_3.aspx" />
     <Content Include="211227\Selection_If.aspx" />
     <Content Include="211227\Jump_Break_Continue.aspx" />
+    <Content Include="211228\Chapter3_Grade.aspx" />
+    <Content Include="211228\Chapter3_TestCode.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +168,20 @@
     <Compile Include="211227\Jump_Break_Continue.aspx.designer.cs">
       <DependentUpon>Jump_Break_Continue.aspx</DependentUpon>
     </Compile>
+    <Compile Include="211228\Chapter3_Grade.aspx.cs">
+      <DependentUpon>Chapter3_Grade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211228\Chapter3_Grade.aspx.designer.cs">
+      <DependentUpon>Chapter3_Grade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211228\Chapter3_TestCode.aspx.cs">
+      <DependentUpon>Chapter3_TestCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211228\Chapter3_TestCode.aspx.designer.cs">
+      <DependentUpon>Chapter3_TestCode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -177,6 +193,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
