@@ -87,6 +87,7 @@
     <Content Include="App_Data\1.txt" />
     <Content Include="App_Data\2.txt" />
     <Content Include="App_Data\3.txt" />
+    <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +202,9 @@
     </Compile>
     <Compile Include="211228\Chapter3_TestCode.aspx.designer.cs">
       <DependentUpon>Chapter3_TestCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

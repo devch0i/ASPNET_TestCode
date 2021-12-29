@@ -18,6 +18,7 @@ namespace ASPNET_TestCode._211228
                 CoffeeType.Items.Add(new ListItem("설탕 커피(설탕)", "2"));
                 CoffeeType.Items.Add(new ListItem("블랙 커피", "3"));
             }
+
         }
         protected void Show_ServerClick(object sender, EventArgs e) {
             // 파일을 불러올 물리 경로 얻기
@@ -42,5 +43,6 @@ namespace ASPNET_TestCode._211228
 
             Response.Write("</ol>");
         }
+
     }
 }
