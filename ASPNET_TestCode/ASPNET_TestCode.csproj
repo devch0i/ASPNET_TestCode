@@ -84,6 +84,7 @@
     <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
     <Content Include="211230\ButtonExam.aspx" />
+    <Content Include="211230\ListExam.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="211230\ButtonExam.aspx.designer.cs">
       <DependentUpon>ButtonExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211230\ListExam.aspx.cs">
+      <DependentUpon>ListExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211230\ListExam.aspx.designer.cs">
+      <DependentUpon>ListExam.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
