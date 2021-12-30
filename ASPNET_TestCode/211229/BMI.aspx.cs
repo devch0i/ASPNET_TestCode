@@ -26,7 +26,6 @@ namespace ASPNET_TestCode._211228
             decimal weight = Decimal.Parse(Weight.Value);
             decimal BMI = weight / (height * height);
 
-            // string[,] info = new string[,] { { "0", "1", "2", "3" }, { "저체중", "정상", "과체중", "비만" } }; // 저체중, 정상, 과체중, 비만이 들어갈 변수
             string level = "";
             string filePath = Request.PhysicalApplicationPath + @"App_Data\";
             string fileName = "";
@@ -49,19 +48,11 @@ namespace ASPNET_TestCode._211228
             }
             Result.InnerText = "체질량지수(BMI) : " + BMI.ToString() + "(" + level + ")";
 
-            /*
-            Response.Clear(); // 두 번째 누르는 버튼부터 버퍼를 지워줌
             // 이미지 출력
-            if (level.Equals("저체중")) fileName = filePath + "0.png";
-            else if (level.Equals("정상")) fileName = filePath + "1.png";
-            else if (level.Equals("과체중")) fileName = filePath + "2.png";
-            else fileName = filePath + "3.png";
-            
-            Response.WriteFile(fileName);
-
-            Response.Flush();
-            */
-            // 왜 한글이 깨지는지 모르겠다.
+            if (level.Equals("저체중")) Img.Src = fileName = filePath + "0.png";
+            else if (level.Equals("정상")) Img.Src = fileName = filePath + "1.png";
+            else if (level.Equals("과체중")) Img.Src = fileName = filePath + "2.png";
+            else fileName = Img.Src = filePath + "3.png";
         }
     }
 }

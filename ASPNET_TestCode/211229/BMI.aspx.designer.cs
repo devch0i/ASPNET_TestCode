@@ -60,13 +60,13 @@ namespace ASPNET_TestCode._211228
         protected global::System.Web.UI.HtmlControls.HtmlInputSubmit Calc;
 
         /// <summary>
-        /// Aa 컨트롤입니다.
+        /// Img 컨트롤입니다.
         /// </summary>
         /// <remarks>
         /// 자동 생성 필드입니다.
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Aa;
+        protected global::System.Web.UI.HtmlControls.HtmlImage Img;
 
         /// <summary>
         /// Result 컨트롤입니다.
