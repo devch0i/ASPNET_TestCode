@@ -79,10 +79,11 @@
     <Content Include="211227\Properties_3.aspx" />
     <Content Include="211227\Selection_If.aspx" />
     <Content Include="211227\Jump_Break_Continue.aspx" />
-    <Content Include="211228\BMI.aspx" />
-    <Content Include="211228\CoffeeRecipe.aspx" />
+    <Content Include="211229\BMI.aspx" />
+    <Content Include="211229\CoffeeRecipe.aspx" />
     <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
+    <Content Include="211230\ButtonExam.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -92,6 +93,7 @@
     <Content Include="App_Data\3.png" />
     <Content Include="App_Data\3.txt" />
     <Content Include="Global.asax" />
+    <Content Include="images\hanbit.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -179,18 +181,18 @@
     <Compile Include="211227\Jump_Break_Continue.aspx.designer.cs">
       <DependentUpon>Jump_Break_Continue.aspx</DependentUpon>
     </Compile>
-    <Compile Include="211228\BMI.aspx.cs">
+    <Compile Include="211229\BMI.aspx.cs">
       <DependentUpon>BMI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211228\BMI.aspx.designer.cs">
+    <Compile Include="211229\BMI.aspx.designer.cs">
       <DependentUpon>BMI.aspx</DependentUpon>
     </Compile>
-    <Compile Include="211228\CoffeeRecipe.aspx.cs">
+    <Compile Include="211229\CoffeeRecipe.aspx.cs">
       <DependentUpon>CoffeeRecipe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="211228\CoffeeRecipe.aspx.designer.cs">
+    <Compile Include="211229\CoffeeRecipe.aspx.designer.cs">
       <DependentUpon>CoffeeRecipe.aspx</DependentUpon>
     </Compile>
     <Compile Include="211228\Grade.aspx.cs">
@@ -206,6 +208,13 @@
     </Compile>
     <Compile Include="211228\Chapter3_TestCode.aspx.designer.cs">
       <DependentUpon>Chapter3_TestCode.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211230\ButtonExam.aspx.cs">
+      <DependentUpon>ButtonExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211230\ButtonExam.aspx.designer.cs">
+      <DependentUpon>ButtonExam.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
