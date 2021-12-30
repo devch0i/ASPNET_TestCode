@@ -16,6 +16,7 @@
             <input id="Calc" type="submit" value="산출하기" 
                 OnServerClick="Calc_ServerClick" runat="server"/>
             <br /><br />
+            <p id="Aa" runat="server" /></p>
             <p id="Result" runat="server" /></p>
         </div>
     </form>

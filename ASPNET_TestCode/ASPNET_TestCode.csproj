@@ -83,9 +83,13 @@
     <Content Include="211228\CoffeeRecipe.aspx" />
     <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
+    <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
+    <Content Include="App_Data\1.png" />
     <Content Include="App_Data\1.txt" />
+    <Content Include="App_Data\2.png" />
     <Content Include="App_Data\2.txt" />
+    <Content Include="App_Data\3.png" />
     <Content Include="App_Data\3.txt" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
