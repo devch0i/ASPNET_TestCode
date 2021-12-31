@@ -84,7 +84,11 @@
     <Content Include="211228\Grade.aspx" />
     <Content Include="211228\Chapter3_TestCode.aspx" />
     <Content Include="211230\ButtonExam.aspx" />
+    <Content Include="211230\ContainerExam.aspx" />
     <Content Include="211230\ListExam.aspx" />
+    <Content Include="211231\AdRotatorExam.aspx" />
+    <Content Include="211231\ValidationExam.aspx" />
+    <Content Include="211231\ValidationExamResult.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -93,8 +97,15 @@
     <Content Include="App_Data\2.txt" />
     <Content Include="App_Data\3.png" />
     <Content Include="App_Data\3.txt" />
+    <Content Include="App_Data\ad.xml" />
     <Content Include="Global.asax" />
+    <Content Include="images\bag_01.bmp" />
+    <Content Include="images\bag_02.bmp" />
+    <Content Include="images\CodeCraft.bmp" />
     <Content Include="images\hanbit.png" />
+    <Content Include="images\ShortCoding.bmp" />
+    <Content Include="images\WebDesign.bmp" />
+    <Content Include="images\WebSiteMeasurementHacks.bmp" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -217,12 +228,40 @@
     <Compile Include="211230\ButtonExam.aspx.designer.cs">
       <DependentUpon>ButtonExam.aspx</DependentUpon>
     </Compile>
+    <Compile Include="211230\ContainerExam.aspx.cs">
+      <DependentUpon>ContainerExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211230\ContainerExam.aspx.designer.cs">
+      <DependentUpon>ContainerExam.aspx</DependentUpon>
+    </Compile>
     <Compile Include="211230\ListExam.aspx.cs">
       <DependentUpon>ListExam.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="211230\ListExam.aspx.designer.cs">
       <DependentUpon>ListExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211231\AdRotatorExam.aspx.cs">
+      <DependentUpon>AdRotatorExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211231\AdRotatorExam.aspx.designer.cs">
+      <DependentUpon>AdRotatorExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211231\ValidationExam.aspx.cs">
+      <DependentUpon>ValidationExam.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211231\ValidationExam.aspx.designer.cs">
+      <DependentUpon>ValidationExam.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="211231\ValidationExamResult.aspx.cs">
+      <DependentUpon>ValidationExamResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="211231\ValidationExamResult.aspx.designer.cs">
+      <DependentUpon>ValidationExamResult.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

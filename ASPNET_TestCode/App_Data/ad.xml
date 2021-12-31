@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~/images/CodeCraft.bmp</ImageUrl>
+		<NavigateUrl>http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-561-8</NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>30</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/ShortCoding.bmp</ImageUrl>
+		<NavigateUrl>http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-561-8</NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>80</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/WebDesign.bmp</ImageUrl>
+		<NavigateUrl>http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-735-3</NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>60</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>~/images/WebSiteMeasurementHacks.bmp</ImageUrl>
+		<NavigateUrl>http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-444-X</NavigateUrl>
+		<Keyword>Programming</Keyword>
+		<Impressions>40</Impressions>
+	</Ad>
+</Advertisements>
