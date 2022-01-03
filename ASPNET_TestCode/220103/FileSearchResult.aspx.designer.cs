@@ -40,5 +40,19 @@ namespace ASPNET_TestCode._220103
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnGoBack;
+
+        /// <summary>
+        /// PreviousPage 속성입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 속성입니다.
+        /// </remarks>
+        public new ASPNET_TestCode._220103.FileSearch PreviousPage
+        {
+            get
+            {
+                return ((ASPNET_TestCode._220103.FileSearch)(base.PreviousPage));
+            }
+        }
     }
 }

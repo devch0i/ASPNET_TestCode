@@ -13,5 +13,32 @@ namespace ASPNET_TestCode._220103
         {
 
         }
+
+        public string KeyWord { 
+            get { return txtKeyWord.Text; }
+        }
+
+        public string FileType {
+            get
+            {
+                string returnValue = "";
+
+                switch (ddFileType.SelectedIndex) {
+                    case 0:
+                        returnValue = "filetype:doc";
+                        break;
+                    case 1:
+                        returnValue = "filetype:ppt";
+                        break;
+                    case 2:
+                        returnValue = "filetype:hwp";
+                        break;
+                    case 3:
+                        returnValue = "filetype:pdf";
+                        break;
+                }
+                return returnValue;
+            }
+        }
     }
 }

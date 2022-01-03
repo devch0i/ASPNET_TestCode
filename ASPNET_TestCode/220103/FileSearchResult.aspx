@@ -1,5 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="FileSearchResult.aspx.cs" Inherits="ASPNET_TestCode._220103.FileSearchResult" %>
-
+<%@ PreviousPageType VirtualPath="FileSearch.aspx" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
