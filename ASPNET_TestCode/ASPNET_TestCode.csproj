@@ -92,6 +92,7 @@
     <Content Include="220103\FileSearch.aspx" />
     <Content Include="220103\FileSearchResult.aspx" />
     <Content Include="220103\PitchRaising.aspx" />
+    <Content Include="220103\ShoppingBasket.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -280,12 +281,20 @@
     <Compile Include="220103\FileSearchResult.aspx.designer.cs">
       <DependentUpon>FileSearchResult.aspx</DependentUpon>
     </Compile>
+    <Compile Include="220103\Goods.cs" />
     <Compile Include="220103\PitchRaising.aspx.cs">
       <DependentUpon>PitchRaising.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="220103\PitchRaising.aspx.designer.cs">
       <DependentUpon>PitchRaising.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="220103\ShoppingBasket.aspx.cs">
+      <DependentUpon>ShoppingBasket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220103\ShoppingBasket.aspx.designer.cs">
+      <DependentUpon>ShoppingBasket.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
