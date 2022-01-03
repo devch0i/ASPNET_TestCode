@@ -89,6 +89,9 @@
     <Content Include="211231\AdRotatorExam.aspx" />
     <Content Include="211231\ValidationExam.aspx" />
     <Content Include="211231\ValidationExamResult.aspx" />
+    <Content Include="220103\FileSearch.aspx" />
+    <Content Include="220103\FileSearchResult.aspx" />
+    <Content Include="220103\PitchRaising.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -262,6 +265,27 @@
     </Compile>
     <Compile Include="211231\ValidationExamResult.aspx.designer.cs">
       <DependentUpon>ValidationExamResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="220103\FileSearch.aspx.cs">
+      <DependentUpon>FileSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220103\FileSearch.aspx.designer.cs">
+      <DependentUpon>FileSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="220103\FileSearchResult.aspx.cs">
+      <DependentUpon>FileSearchResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220103\FileSearchResult.aspx.designer.cs">
+      <DependentUpon>FileSearchResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="220103\PitchRaising.aspx.cs">
+      <DependentUpon>PitchRaising.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220103\PitchRaising.aspx.designer.cs">
+      <DependentUpon>PitchRaising.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
