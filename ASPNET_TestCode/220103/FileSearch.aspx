@@ -19,7 +19,7 @@
                 <asp:ListItem Value="3">어도비(*.pdf)</asp:ListItem>
                 <asp:ListItem Value="4">이미지(*.jpg)</asp:ListItem>
             </asp:DropDownList><br /><br />
-            <asp:Button ID="btnSearch" runat="server" Text="검색어 보기" PostBackUrl="~/220103/FileSearchResult.aspx" />
+            <asp:Button ID="btnSearch" runat="server" Text="검색어 보기" OnClick="btnSearch_Click"/>
         </div>
     </form>
 </body>

@@ -40,5 +40,13 @@ namespace ASPNET_TestCode._220103
                 return returnValue;
             }
         }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            string queryString = "KeyWord=" + Server.UrlEncode(txtKeyWord.Text);
+            queryString += "&";
+            queryString += "FileType=" + this.FileType;
+            Response.Redirect("FileSearchResult.aspx?" + queryString);
+        }
     }
 }

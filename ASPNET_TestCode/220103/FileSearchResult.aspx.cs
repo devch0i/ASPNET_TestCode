@@ -11,19 +11,26 @@ namespace ASPNET_TestCode._220103
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            lnkSearchString.Text = Request.QueryString["KeyWord"] + " ";
+            lnkSearchString.Text += Request.QueryString["FileType"];
+
+            string url = "http://www.google.co.kr/search?q=";
+            url += Server.UrlEncode(lnkSearchString.Text);
+            lnkSearchString.NavigateUrl = url;
+            /*
             // 이전 페이지가 있을 경우
             if (PreviousPage != null) {
-                /*
+                
                 // 이전 페이지의 컨트롤 구하기
                 TextBox txtKeyWord;
                 txtKeyWord = (TextBox)PreviousPage.FindControl("txtKeyWord");
                 DropDownList ddFileType;
                 ddFileType = (DropDownList)PreviousPage.FindControl("ddFileType");
 
-                */
+                
                 // 이전 페이지의 입력 정보 처리
                 string url = "http://www.google.co.kr/search?q=";
-                /*
+                /
                 url += Server.UrlEncode(txtKeyWord.Text + " ");
 
                 string fileType = "";
@@ -48,12 +55,13 @@ namespace ASPNET_TestCode._220103
                 
                 // 링크 URL 설정
                 lnkSearchString.NavigateUrl = url;
-                */
+               
                 // 페이지에 표시할 텍스트 설정
                 lnkSearchString.Text = PreviousPage.KeyWord + " " + PreviousPage.FileType; // txtKeyWord.Text + " " + fileType;
                 url += Server.UrlEncode(lnkSearchString.Text);
                 lnkSearchString.NavigateUrl = url;
-            }
+            */
+            
         }
     }
 }
