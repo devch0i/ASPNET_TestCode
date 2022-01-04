@@ -5,6 +5,7 @@ using System.Web;
 
 namespace ASPNET_TestCode._220103
 {
+    [Serializable]
     public class Goods
     {
         public string Name;
