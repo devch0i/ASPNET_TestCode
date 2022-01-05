@@ -93,6 +93,7 @@
     <Content Include="220103\FileSearchResult.aspx" />
     <Content Include="220103\PitchRaising.aspx" />
     <Content Include="220103\ShoppingBasket.aspx" />
+    <Content Include="220105\ConnectionTest.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -295,6 +296,13 @@
     </Compile>
     <Compile Include="220103\ShoppingBasket.aspx.designer.cs">
       <DependentUpon>ShoppingBasket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="220105\ConnectionTest.aspx.cs">
+      <DependentUpon>ConnectionTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220105\ConnectionTest.aspx.designer.cs">
+      <DependentUpon>ConnectionTest.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
