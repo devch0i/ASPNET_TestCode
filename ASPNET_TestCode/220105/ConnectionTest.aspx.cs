@@ -8,6 +8,7 @@ using System.Web.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace ASPNET_TestCode._220105
 {
     public partial class ConnectionTest : System.Web.UI.Page
@@ -19,11 +20,9 @@ namespace ASPNET_TestCode._220105
 
         protected void btnConnection_Click(object sender, EventArgs e)
         {
-            s
             string connectionString = WebConfigurationManager.ConnectionStrings["AdventureWorks"].ConnectionString;
-
+                        
             SqlConnection conn = new SqlConnection(connectionString);
-
             lblConnectionInformation.Text = "<font color='red'>";
 
             try
@@ -43,7 +42,6 @@ namespace ASPNET_TestCode._220105
                 lblConnectionInformation.Text += "<br/><b>마지막 연결 상태 : </b>" + conn.State.ToString();
             }
             lblConnectionInformation.Text += "</font>";
-            
         }
     }
 }
