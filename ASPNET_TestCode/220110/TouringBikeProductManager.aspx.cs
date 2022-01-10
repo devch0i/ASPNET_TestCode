@@ -29,7 +29,7 @@ namespace ASPNET_TestCode._220110
             SqlConnection conn = new SqlConnection(connectionString);
             SqlCommand cmd = new SqlCommand(selectSQL, conn);
 
-            SqlDataReader rd;
+            SqlDataReader rd; 
             try {
                 conn.Open();
                 rd = cmd.ExecuteReader();
