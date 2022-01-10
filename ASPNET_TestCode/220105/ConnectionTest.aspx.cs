@@ -28,6 +28,7 @@ namespace ASPNET_TestCode._220105
             try
             {
                 conn.Open();
+
                 lblConnectionInformation.Text += "<b>서버 버전 : </b>" + conn.ServerVersion;
                 lblConnectionInformation.Text += "<br/><br/>연결 상태 : </b>" + conn.State.ToString();
             }
@@ -37,6 +38,7 @@ namespace ASPNET_TestCode._220105
                 lblConnectionInformation.Text += error.Message;
             }
             finally { 
+                
                 conn.Close();
 
                 lblConnectionInformation.Text += "<br/><b>마지막 연결 상태 : </b>" + conn.State.ToString();
