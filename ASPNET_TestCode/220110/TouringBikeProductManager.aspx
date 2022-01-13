@@ -71,7 +71,7 @@
             </tr>
             <tr>
                 <td><span>판매 시작일 : </span></td>
-                <td><asp:TextBox ID="txtSellStartDate" runat="server" style="width:300px;"></asp:TextBox></td>
+                <td><asp:TextBox ID="txtSellStartDate" runat="server" style="width:300px;" ReadOnly="True"></asp:TextBox>&nbsp;&nbsp;(읽기 전용)</td>
             </tr>
         </table>
         </div>

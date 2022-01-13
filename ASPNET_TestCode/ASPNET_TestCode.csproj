@@ -95,6 +95,7 @@
     <Content Include="220103\ShoppingBasket.aspx" />
     <Content Include="220105\ConnectionTest.aspx" />
     <Content Include="220110\TouringBikeProductManager.aspx" />
+    <Content Include="220113\SqlDataSourceTest.aspx" />
     <Content Include="App_Data\0.png" />
     <Content Include="App_Data\0.txt" />
     <Content Include="App_Data\1.png" />
@@ -312,6 +313,13 @@
     <Compile Include="220110\TouringBikeProductManager.aspx.designer.cs">
       <DependentUpon>TouringBikeProductManager.aspx</DependentUpon>
     </Compile>
+    <Compile Include="220113\SqlDataSourceTest.aspx.cs">
+      <DependentUpon>SqlDataSourceTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="220113\SqlDataSourceTest.aspx.designer.cs">
+      <DependentUpon>SqlDataSourceTest.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -326,7 +334,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="220111\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
